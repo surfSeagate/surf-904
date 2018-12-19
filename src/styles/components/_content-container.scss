@@ -1,0 +1,46 @@
+.content-container {
+  margin: 0 auto;
+  max-width: 80rem;
+  padding: 0 $m-size;
+}
+
+.page-background {
+  background-image: url("/images/waterwave.jpg");
+  // background-image: url("/images/oceanblue.jpg");
+  height: 800px;
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.page-background-webdesign {
+  background-image: url("/images/wave2.png");
+  // background-image: url("/images/waterdroppng.png");
+  height: 800px;
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-card {
+  border-radius: 4px;
+  margin-top: 16px;
+  margin-right: 10px;
+  width: 700px;
+  box-shadow: 4px 2px;
+  color: #006bb3;
+}
+.about-container {
+  padding: 2rem;
+}
+.container-top {
+  margin-top: 80px;
+}
+
+.services-title {
+  font-size: 20px;
+}
+
+.card-title {
+  text-decoration: none;
+}
