@@ -22,7 +22,7 @@ const WebDesign = () => (
                   data-toggle="collapse"
                 >
                   <span style={{ marginRight: "50px" }}>UI - Experience</span>
-                  <span style={{ marginLeft: "490px" }}>
+                  <span style={{ marginLeft: "690px" }}>
                     <img
                       className="images icon-pad"
                       src="/images/icons/js_LXQ_icon.ico"
