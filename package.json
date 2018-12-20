@@ -1,8 +1,9 @@
 {
   "name": "boilerplate",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "serve": "live-server --port=8081 public/",
     "build": "webpack",
     "dev-server": "webpack-dev-server"
