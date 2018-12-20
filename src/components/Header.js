@@ -12,8 +12,8 @@ const Header = () => (
           <Link to="/" className="header__content">
             <div className="spacer" />
             <img
-              className="images"
-              src="/images/icons/wave_ico_gxa_icon.ico"
+              className="images icon-pad"
+              src="/images/icons/wave.ico"
               alt="Glenn Curry"
             />
             <h1>Surf904.com</h1>

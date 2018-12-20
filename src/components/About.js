@@ -6,7 +6,11 @@ const About = () => (
       <div className="card-body about-container">
         <div className="card  about-card  container-top">
           <div className="d-flex align-items-stretch row-hl ">
-            <img className="images" src="/images/gc.jpg" alt="Glenn Curry" />
+            <img
+              className="images icon-pad"
+              src="/images/gc.jpg"
+              alt="Glenn Curry"
+            />
             <div className="p-4 item-hl">
               <p>
                 Besides living at the beach and the vibe, coding is my passion!

@@ -21,7 +21,7 @@ const WebDesign = () => (
                   data-parent="#accordion"
                   data-toggle="collapse"
                 >
-                  <span style={{ marginRight: "50px" }}>UI - Experience</span>
+                  <span style={{ marginRight: "20px" }}>UI - Experience</span>
                   <span style={{ marginLeft: "690px" }}>
                     <img
                       className="images icon-pad"
@@ -76,7 +76,7 @@ const WebDesign = () => (
                     />
                     <img
                       className="images icon-pad"
-                      src="/images/icons/sass_0op_icon.ico"
+                      src="/images/icons/sass.ico"
                       alt="Glenn Curry"
                     />
                   </span>
@@ -113,7 +113,7 @@ const WebDesign = () => (
                     />
                     <img
                       className="images icon-pad"
-                      src="/images/icons/express_RAG_icon.ico"
+                      src="/images/icons/express.ico"
                       alt="Glenn Curry"
                     />
                     <img
@@ -123,7 +123,7 @@ const WebDesign = () => (
                     />
                     <img
                       className="images icon-pad"
-                      src="/images/icons/passport_ttj_icon.ico"
+                      src="/images/icons/passport.ico"
                       alt="Glenn Curry"
                     />
                   </span>
@@ -168,12 +168,12 @@ const WebDesign = () => (
                     />
                     <img
                       className="images icon-pad"
-                      src="/images/icons/mongodb_logo_gmj_icon.ico"
+                      src="/images/icons/mongodb.ico"
                       alt="Glenn Curry"
                     />
                     <img
                       className="images icon-pad"
-                      src="/images/icons/firebase_qr9_icon.ico"
+                      src="/images/icons/firebase.ico"
                       alt="Glenn Curry"
                     />
                   </span>
