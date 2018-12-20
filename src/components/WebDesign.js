@@ -29,7 +29,6 @@ const WebDesign = () => (
                       alt="Glenn Curry"
                     />
                     <img
-                      className="images icon-pad"
                       src="/images/icons/react_UBY_icon.ico"
                       alt="Glenn Curry"
                     />
