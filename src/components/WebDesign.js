@@ -21,7 +21,7 @@ const WebDesign = () => (
                   data-parent="#accordion"
                   data-toggle="collapse"
                 >
-                  <span style={{ marginRight: "50px" }}>UI - Experience</span>
+                  <span>UI - Experience</span>
                   <span style={{ marginLeft: "690px" }}>
                     <img
                       className="images icon-pad"
