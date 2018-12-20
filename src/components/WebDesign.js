@@ -26,7 +26,7 @@ const WebDesign = () => (
                     <img
                       className="images icon-pad"
                       src="/images/icons/react.ico"
-                      alt="Glenn Curry"
+                      alt="react"
                     />
                     <img
                       className="images icon-pad"
