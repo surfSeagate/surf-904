@@ -8,7 +8,7 @@ const About = () => (
           <div className="d-flex align-items-stretch row-hl ">
             <img
               className="images icon-pad"
-              src="/images/gc.jpg"
+              src="/images/gcurry.jpg"
               alt="Glenn Curry"
             />
             <div className="p-4 item-hl">
