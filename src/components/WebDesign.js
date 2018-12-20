@@ -24,11 +24,18 @@ const WebDesign = () => (
                   <span style={{ marginRight: "50px" }}>UI - Experience</span>
                   <span style={{ marginLeft: "690px" }}>
                     <img
+                      className="images icon-pad"
+                      src="/images/icons/react.ico"
+                      alt="Glenn Curry"
+                    />
+                    <img
+                      className="images icon-pad"
                       src="/images/icons/js_LXQ_icon.ico"
                       alt="Glenn Curry"
                     />
-                    <img src="/images/icons/react.ico" alt="Glenn Curry" />
+
                     <img
+                      className="images icon-pad"
                       src="/images/icons/redux_lhz_icon.ico"
                       alt="Glenn Curry"
                     />
