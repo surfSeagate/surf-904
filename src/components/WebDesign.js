@@ -135,13 +135,13 @@ const WebDesign = () => (
               <div className="card-body">
                 Some larger project require server side coding. I utilize
                 Node.js, along with Express, Mongoose and a host of other
-                middleware components like passport to create models and API
+                middleware components such as Passport to create models and API
                 calls for routes concerned with authentication - oAuth2 or
-                incorporating a payment credit card module like stripe. There
+                incorporating a payment credit card module like Stripe. There
                 are literally thousands of API's written and available to be
                 consumed by your website. From weather data, spotify music
                 libaries to updated DOW market numbers or updated sports scores,
-                a simple restful api is available and can be used to bring the
+                a simple Restful API is available and can be used to bring the
                 data into your site. Utilizing Node.js and Express makes this
                 easy. Almost all modern API's use JSON files, which is the
                 standard. If you need an API created from your data store, it is

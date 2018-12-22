@@ -27,7 +27,7 @@ const Reports = () => (
           <div style={{ marginTop: "1rem" }}>
             <h2>SQL Server Reporting Services (SSRS)</h2>
             <ul>
-              <li>Repository, Scheduling and Subcription Adimistration</li>
+              <li>Repository, Scheduling and Subcription Administration</li>
               <li>Relational, Multidimensional and XML data sources</li>
               <li>Tabular, graphical and free form reports </li>
             </ul>
