@@ -10,7 +10,7 @@ const Contact = () => (
               <h1>Surf904.com</h1>
               <h2>Neptune Beach, FL</h2>
 
-              <a href="mailto:gcurry@surf904.com">gcurry@904.com</a>
+              <a href="mailto:gcurry@surf904.com">gcurry@surf904.com</a>
 
               <h3>904.563.2982</h3>
             </div>
