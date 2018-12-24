@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import SideNav from "./SideNav";
 //import DrawerToggleButton from "./SideDrawerButton";
+import HamMenu from "./HamMenu";
 
 //import Toolbar from "./components/Toolbar";
 
@@ -8,9 +10,11 @@ const Header = () => (
   <div className="container">
     <header className="toolbar">
       <nav className="toolbar__navigation">
+        <HamMenu />
         <div className="toolbar__logo">
           <Link to="/" className="header__content">
             <div className="spacer" />
+
             <img
               className="images icon-pad"
               src="/images/icons/wave.ico"
