@@ -133,7 +133,7 @@ const WebDesign = () => (
 
             <div id="collapse3" className="collapse">
               <div className="card-body">
-                Some larger project require server side coding. I utilize
+                Some larger projects require server side coding. I utilize
                 Node.js, along with Express, Mongoose and a host of other
                 middleware components such as Passport to create models and API
                 calls for routes concerned with authentication - oAuth2 or

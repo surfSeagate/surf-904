@@ -9,8 +9,10 @@ const Contact = () => (
             <div className="p-4 item-hl">
               <h1>Surf904.com</h1>
               <h2>Neptune Beach, FL</h2>
-              <h3>gcurry@surf904.com</h3>
-              <h3>904.536.2982</h3>
+
+              <a href="mailto:gcurry@surf904.com">gcurry@904.com</a>
+
+              <h3>904.563.2982</h3>
             </div>
           </div>
         </div>
