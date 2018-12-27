@@ -13,7 +13,7 @@ const WebDesign = () => (
           id="accordion"
           style={{ boxShadow: "4px 2px 2px" }}
         >
-          <div className="card">
+          <div>
             <div className="card-header " style={{ background: "#A8A8A8" }}>
               <h3>
                 <a
@@ -21,8 +21,8 @@ const WebDesign = () => (
                   data-parent="#accordion"
                   data-toggle="collapse"
                 >
-                  <span style={{ marginRight: "20px" }}>UI - Experience</span>
-                  <span style={{ marginLeft: "690px" }}>
+                  <span className="ui-right">UI - Experience</span>
+                  <span className="ui-left">
                     <img
                       className="images icon-pad"
                       src="/images/icons/react.ico"
@@ -59,7 +59,7 @@ const WebDesign = () => (
             </div>
           </div>
 
-          <div className="card">
+          <div>
             <div className="card-header" style={{ background: "#BEBEBE" }}>
               <h3>
                 <a
@@ -67,8 +67,8 @@ const WebDesign = () => (
                   data-parent="#accordion"
                   data-toggle="collapse"
                 >
-                  <span style={{ marginRight: "90px" }}>Styling</span>
-                  <span style={{ marginLeft: "690px" }}>
+                  <span className="styling-right">Styling</span>
+                  <span className="styling-left">
                     <img
                       className="images icon-pad"
                       src="/images/icons/bootstrap_A40_icon.ico"
@@ -95,7 +95,7 @@ const WebDesign = () => (
             </div>
           </div>
 
-          <div className="card">
+          <div>
             <div className="card-header" style={{ background: "#C8C8C8" }}>
               <h3>
                 <a
@@ -103,9 +103,9 @@ const WebDesign = () => (
                   data-parent="#accordion"
                   data-toggle="collapse"
                 >
-                  <span style={{ marginRight: "40px" }}>Server Side</span>
+                  <span className="server-right">Server Side</span>
 
-                  <span style={{ marginLeft: "700px" }}>
+                  <span className="server-left">
                     <img
                       className="images icon-pad"
                       src="/images/icons/nodejs_EWH_icon.ico"
@@ -150,7 +150,7 @@ const WebDesign = () => (
             </div>
           </div>
 
-          <div className="card">
+          <div>
             <div className="card-header" style={{ background: "#D3D3D3" }}>
               <h3>
                 <a
@@ -158,9 +158,9 @@ const WebDesign = () => (
                   data-parent="#accordion"
                   data-toggle="collapse"
                 >
-                  <span style={{ marginRight: "50px" }}>Databases</span>
+                  <span className="db-right">Databases</span>
 
-                  <span style={{ marginLeft: "700px" }}>
+                  <span className="db-left">
                     <img
                       className="images icon-pad"
                       src="/images/icons/sql_x0g_icon.ico"

@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-//import "./menuContent.css";
-
 class MenuContent extends Component {
   constructor(props) {
     super(props);
@@ -15,26 +13,29 @@ class MenuContent extends Component {
 
   render() {
     return (
-      <div className="menu">
+      <div className="menu" style={{ marginTop: "20px" }}>
         <div className="menu-item">
           <ul id="slide-out" className="sidenav">
             <li>
-              <Link to="/services">Services</Link>
+              <Link to="/services" onClick={this.props.closeCallback}>
+                Services
+              </Link>
             </li>
 
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/resources" onClick={this.props.closeCallback}>
+                Resources
+              </Link>
             </li>
 
             <li>
-              <Link to="/resources">Resources</Link>
-            </li>
-
-            <li>
-              <Link to="/contact">Contact</Link>
+              <Link to="/contact" onClick={this.props.closeCallback}>
+                Contact
+              </Link>
             </li>
           </ul>
         </div>
+        <hr />
         <p className="hint">
           Click outside the menu to close it, or swipe it closed on touch device
         </p>

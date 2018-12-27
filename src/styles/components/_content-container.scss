@@ -5,12 +5,7 @@
 }
 
 .page-background {
-  background-image: url("/images/waterwave.jpg");
-  // background-image: url("/images/oceanblue.jpg");
-  height: 800px;
-  background-position: 0% 25%;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: none;
 }
 
 .page-background-webdesign {
@@ -36,11 +31,12 @@
 
 .contact-card {
   border-radius: 4px;
-  margin-top: 300px;
-  margin-left: 600px;
-  width: 500px;
+  margin-bottom: 500px;
+  // margin-left: 600px;
+  width: 250px;
   box-shadow: 4px 2px;
   color: #006bb3;
+  display: flex;
 }
 
 .container-top {
@@ -48,7 +44,7 @@
 }
 
 .contact-container-top {
-  margin-top: 400px;
+  margin-top: 40px;
 }
 
 .services-title {
@@ -57,4 +53,27 @@
 
 .card-title {
   text-decoration: none;
+}
+
+@media (min-width: 45rem) {
+  .contact-card {
+    border-radius: 4px;
+    margin-top: 350px;
+    margin-left: 600px;
+    width: 500px;
+    box-shadow: 4px 2px;
+    color: #006bb3;
+  }
+  .contact-container-top {
+    margin-top: 400px;
+  }
+
+  .page-background {
+    background-image: url("/images/waterwave.jpg");
+    // background-image: url("/images/oceanblue.jpg");
+    height: 800px;
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }

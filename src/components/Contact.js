@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => (
   <div className="page-background-webdesign">
-    <div className="container ">
+    <div className="container">
       <div className="card-body about-container">
         <div className="card  contact-card  contact-container-top">
           <div className="d-flex align-items-stretch row-hl ">

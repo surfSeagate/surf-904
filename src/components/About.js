@@ -3,8 +3,8 @@ import React from "react";
 const About = () => (
   <div className="page-background">
     <div className="container ">
-      <div className="card-body about-container">
-        <div className="card  about-card  container-top">
+      <div className="card-body">
+        <div className="  about-card  container-top">
           <div className="d-flex align-items-stretch row-hl ">
             <img
               className="images icon-pad"

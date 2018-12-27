@@ -27,12 +27,13 @@
 }
 .toolbar_navigation-item a:hover,
 .toolbar_navigation-item a:active {
-  color: rgba($color: #8a8181, $alpha: 1);
+  color: rgba($color: white, $alpha: 1);
   text-decoration: none;
 }
 .toolbar_navigation-item li {
   padding: 0 1rem;
   font-size: 1.5rem;
+  display: none;
 }
 
 .toolbar_navigation-item ul {
@@ -43,10 +44,18 @@
 }
 
 .spacer {
-  flex: 0.1;
+  flex: 2.4;
 }
 
 .toolbar__logo {
   margin-left: 2rem;
   align-items: center;
+}
+
+@media (min-width: 45rem) {
+  .toolbar_navigation-item li {
+    padding: 0 1rem;
+    font-size: 1.5rem;
+    display: flex;
+  }
 }
