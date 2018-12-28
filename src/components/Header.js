@@ -7,7 +7,7 @@ import HamMenu from "./HamMenu";
 //import Toolbar from "./components/Toolbar";
 
 const Header = () => (
-  <div className="container">
+  <div>
     <header className="toolbar">
       <nav className="toolbar__navigation">
         <HamMenu />

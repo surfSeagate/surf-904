@@ -15,6 +15,14 @@ class MenuContent extends Component {
     return (
       <div className="menu" style={{ marginTop: "20px" }}>
         <div className="menu-item">
+          <Link to="/" className="header__content">
+            <img
+              className="images icon-pad"
+              src="/images/hamwave.jpg"
+              alt="Glenn Curry"
+            />
+          </Link>
+
           <ul id="slide-out" className="sidenav">
             <li>
               <Link to="/services" onClick={this.props.closeCallback}>
@@ -36,9 +44,6 @@ class MenuContent extends Component {
           </ul>
         </div>
         <hr />
-        <p className="hint">
-          Click outside the menu to close it, or swipe it closed on touch device
-        </p>
       </div>
     );
   }
