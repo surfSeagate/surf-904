@@ -6,11 +6,6 @@ const About = () => (
       <div className="card-body">
         <div className="  about-card  container-top">
           <div className="d-flex align-items-stretch row-hl ">
-            <img
-              className="images icon-pad"
-              src="/images/gcurry.jpg"
-              alt="Glenn Curry"
-            />
             <div className="p-4 item-hl">
               <p>
                 Besides living at the beach and the vibe, coding is my passion!
@@ -31,6 +26,13 @@ const About = () => (
               </p>
               <h3>Glenn Curry</h3>
               <h3>Lead Software Engineer</h3>
+              <div>
+                <img
+                  className="images icon-pad"
+                  src="/images/about.ico"
+                  alt="Glenn Curry"
+                />
+              </div>
             </div>
           </div>
         </div>

@@ -36,11 +36,3 @@ const AppRouter = props => (
 );
 
 export default AppRouter;
-
-//<Route component={NotFoundPage} />
-//<Route path="/.." component={Header} />
-
-// <Route path="/services" component={Services} />
-//   <Route path="/about" component={About} />
-//   <Route path="/resources" component={Resources} />
-//   <Route component={NotFoundPage} />
