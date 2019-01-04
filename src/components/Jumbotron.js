@@ -6,7 +6,7 @@ const Jumbo = props => (
       <div className="jumbotron text-center">
         <h1 className="display-6 jumbotron-header">Welcome to Surf904.com</h1>
         <h2 className="jumbotron-header">
-          Serving the Jacksonville's software development needs....
+          Serving the Jacksonville - First Coast software development needs....
         </h2>
 
         <p className="jumbotron-header">
