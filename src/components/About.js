@@ -8,8 +8,8 @@ const About = () => (
           <div className="d-flex align-items-stretch row-hl ">
             <div className="p-4 item-hl">
               <p>
-                Besides living at the beach and the vibe, coding is my passion!
-                That is why I started <b>Surf904.com</b>
+                Besides living at the beach and the vibe, software is my
+                passion! That is why I started <b>Surf904.com</b>
               </p>
               <p>
                 With over 20 years in the software industry, resolving complex
